@@ -1,0 +1,40 @@
+{
+	"name": "cml",
+	"description": "Syntax Highlight for Chameleon",
+	"version": "0.0.1",
+	"author": "quyatong",
+	"publisher": "quyatong",
+	"icon": "images/logo.png",
+	"keywords": [
+		"cml",
+		"chameleon"
+	],
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/quyatong/vscode-cml.git"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "cml",
+			"aliases": ["interface", "cml"],
+			"extensions": [".cml"],
+			"configuration": "./cml.configuration.json"
+		}],
+		"grammars": [{
+			"language": "cml",
+			"scopeName": "text.html.cml",
+			"path": "./syntaxes/cml.tmLanguage.json"
+		}],
+		"snippets": [{
+			"language": "cml",
+			"path": "./snippets/snippets.json"
+		}]
+	},
+	"license": "MIT"
+}
