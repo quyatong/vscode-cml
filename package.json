@@ -1,7 +1,7 @@
 {
 	"name": "cml",
 	"description": "Syntax Highlight for Chameleon",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"author": "quyatong",
 	"publisher": "quyatong",
 	"icon": "images/logo.png",
@@ -22,8 +22,8 @@
 	"contributes": {
 		"languages": [{
 			"id": "cml",
-			"aliases": ["interface", "cml"],
-			"extensions": [".cml"],
+			"aliases": ["cml"],
+			"extensions": [".cml", ".interface"],
 			"configuration": "./cml.configuration.json"
 		}],
 		"grammars": [{
